@@ -1,0 +1,27 @@
+{
+  "name": "huxley_cloud",
+  "version": "1.0.0",
+  "description": "The Cirriculum Vitae of Cloud Huxley",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvxley/huxley_cloud.git"
+  },
+  "keywords": [
+    "cv",
+    "cirriculum",
+    "vitae",
+    "resume",
+    "cloud",
+    "huxley"
+  ],
+  "author": "Cloud Huxley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hvxley/huxley_cloud/issues"
+  },
+  "homepage": "https://github.com/hvxley/huxley_cloud#readme"
+}
