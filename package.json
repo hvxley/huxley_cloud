@@ -1,27 +1,16 @@
 {
-  "name": "huxley_cloud",
-  "version": "1.0.0",
-  "description": "The Cirriculum Vitae of Cloud Huxley",
-  "main": "index.js",
+  "name": "huxley-cloud",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hvxley/huxley_cloud.git"
-  },
-  "keywords": [
-    "cv",
-    "cirriculum",
-    "vitae",
-    "resume",
-    "cloud",
-    "huxley"
-  ],
-  "author": "Cloud Huxley",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hvxley/huxley_cloud/issues"
-  },
-  "homepage": "https://github.com/hvxley/huxley_cloud#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
