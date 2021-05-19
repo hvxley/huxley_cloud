@@ -1,9 +1,11 @@
 {
   "name": "huxley-cloud",
   "version": "0.0.0",
+  "description": "The Cirriculum Vitae of Cloud ",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "webpack"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -11,6 +13,11 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "lodash": "^4.17.21",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
   }
 }
